@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C3F864427A55FBE00E0AA98 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 		7C91CC1027A47B680032024E /* Boil EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boil EggTimer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C91CC1327A47B680032024E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C91CC1527A47B680032024E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 				7C91CC1727A47B680032024E /* ViewController.swift */,
 				7C91CC1927A47B680032024E /* Main.storyboard */,
 				7C91CC1C27A47B6A0032024E /* Assets.xcassets */,
+				7C3F864427A55FBE00E0AA98 /* alarm_sound.mp3 */,
 				7C91CC1E27A47B6A0032024E /* LaunchScreen.storyboard */,
 				7C91CC2127A47B6A0032024E /* Info.plist */,
 			);

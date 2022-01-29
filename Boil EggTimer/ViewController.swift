@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     var timer = Timer()
     var totalTime = 0
     var secondsPassed = 0
+    var player : AVAudioPlayer!
     
     
     
@@ -46,7 +47,6 @@ class ViewController: UIViewController {
     
     @objc func updateTimer() {
         if(secondsPassed < totalTime) {
-            
             secondsPassed += 1
             let percentageProgress = Float(secondsPassed) / Float(totalTime)
             progressBar.progress = percentageProgress
@@ -55,7 +55,11 @@ class ViewController: UIViewController {
             
         } else {
             timer.invalidate()
-            titleLable.text = "DONE"
+            titleLable.text = "DONE!"
+            
+            let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
+            player = try! AVAudioPlayer(contentsOf: url!)
+            player.play()
         }
     }
     
